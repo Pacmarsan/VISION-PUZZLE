@@ -215,6 +215,8 @@
   "homepage": "https://github.com/Pacmarsan/VISION-PUZZLE#readme",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.4",
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
