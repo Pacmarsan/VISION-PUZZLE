@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    background-color: #221c10;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+
+  /* Chiseled Text Effect */
+  .text-chiseled {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8),
+      -1px -1px 0 rgba(244, 175, 37, 0.3);
+    background: linear-gradient(180deg, #fff8e7 0%, #d4af37 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Custom scrollbar for that ancient feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b3223;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f4af25;
+}
