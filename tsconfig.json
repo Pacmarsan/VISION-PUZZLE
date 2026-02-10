@@ -22,6 +22,10 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "baseUrl": ".",
+        "types": [
+            "react",
+            "react-dom"
+        ],
         "paths": {
             "@/*": [
                 "./src/*"
